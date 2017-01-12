@@ -1,5 +1,9 @@
 package com.algorithms.chapter2;
-
+/**
+ * 排序算法的基本模板
+ * @author fengbincao
+ *
+ */
 public class BaseSort {
 	
 	public void sort(Comparable[] arrays) {
