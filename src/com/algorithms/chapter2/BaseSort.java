@@ -6,6 +6,9 @@ package com.algorithms.chapter2;
  */
 public class BaseSort {
 	
+	private int compareCount;
+	private int exchageCount;
+	
 	/**
 	 * 排序的核心实现，由各个子类自己去实现
 	 * @param arrays
@@ -36,6 +39,19 @@ public class BaseSort {
 		System.out.println("\n");
 	}
 	
+	public void reset() {
+		compareCount = 0;
+		exchageCount = 0;
+	}
+	
+	public int getCompareCount() {
+		return compareCount;
+	}
+
+	public int getExchageCount() {
+		return exchageCount;
+	}
+
 	/**
 	 * 用于比较给定的两个数据的大小
 	 * @param v
@@ -43,6 +59,7 @@ public class BaseSort {
 	 * @return
 	 */
 	protected boolean less(Comparable v, Comparable w) {
+		compareCount++;
 		return v.compareTo(w) < 0;
 	}
 
@@ -56,5 +73,6 @@ public class BaseSort {
 		Comparable t = array[i];
 		array[i] = array[j];
 		array[j] = t;
+		exchageCount++;
 	}
 }
