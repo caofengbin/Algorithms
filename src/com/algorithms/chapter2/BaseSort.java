@@ -6,7 +6,7 @@ package com.algorithms.chapter2;
  */
 public class BaseSort {
 	
-	private int compareCount;
+	private int compareCount;				
 	private int exchageCount;
 	
 	/**
