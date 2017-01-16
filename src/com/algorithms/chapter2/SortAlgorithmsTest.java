@@ -2,14 +2,15 @@ package com.algorithms.chapter2;
 
 public class SortAlgorithmsTest {
 
+	static Character[] randomArrays = {'S','O','R','T','E','X','A','M','P','L','E'};
+	static Character[] orderArrays = {'A','B','C','D','E','F','G','H','I','J','K'};
+	static Character[] reverseArrays = {'Z','Y','I','H','G','F','E','D','C','B','A'};
+	
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//Character[] arrays = {'S','O','R','T','E','X','A','M','P','L','E'};
-		//Character[] arrays = {'A','B','C','D','E','F','G','H','I','J','K'};
-		//Character[] arrays = {'Z','Y','I','H','G','F','E','D','C','B','A'};
-		Character[] arrays = {'E','X','A','M','P','L','E'};
+		Character[] arrays = reverseArrays;
 		BaseSort sortUtil = new InsertionSort();
 		sortUtil.reset();
 		sortUtil.show(arrays);

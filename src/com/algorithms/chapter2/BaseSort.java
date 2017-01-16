@@ -39,6 +39,7 @@ public class BaseSort {
 		System.out.println("\n");
 	}
 	
+	// 需要进行统计效率的时候，每次排序前进行调用
 	public void reset() {
 		compareCount = 0;
 		exchageCount = 0;

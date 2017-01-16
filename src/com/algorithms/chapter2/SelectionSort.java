@@ -1,6 +1,6 @@
 package com.algorithms.chapter2;
 /**
- * 选择排序的基本实现
+ * 基本排序算法1:选择排序的基本实现
  * @author fengbincao
  */
 public class SelectionSort extends BaseSort {
