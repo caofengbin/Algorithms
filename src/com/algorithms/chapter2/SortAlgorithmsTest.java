@@ -1,5 +1,10 @@
 package com.algorithms.chapter2;
-
+/**
+ * 用于对排序算法测试的文件
+ * 自己写的一个测试文件
+ * @author caofengbin
+ *
+ */
 public class SortAlgorithmsTest {
 
 	static Character[] randomArrays = {'S','O','R','T','E','X','A','M','P','L','E'};
@@ -11,7 +16,7 @@ public class SortAlgorithmsTest {
 	 */
 	public static void main(String[] args) {
 		Character[] arrays = reverseArrays;
-		BaseSort sortUtil = new InsertionSort();
+		BaseSort sortUtil = new SelectionSort();
 		sortUtil.reset();
 		sortUtil.show(arrays);
 		sortUtil.sort(arrays);

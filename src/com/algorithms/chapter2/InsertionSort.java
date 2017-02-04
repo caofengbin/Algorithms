@@ -1,6 +1,6 @@
 package com.algorithms.chapter2;
 /**
- * 基本排序算法1:插入排序的基本实现
+ * 基本排序算法2:插入排序的基本实现
  * @author fengbincao
  *
  */
