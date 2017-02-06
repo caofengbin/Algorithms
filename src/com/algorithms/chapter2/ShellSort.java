@@ -22,7 +22,6 @@ public class ShellSort extends BaseSort {
 					exchange(arrays, j, j - h);
 			}
 			h = h / 3;
-		}
-			
+		}	
 	}
 }

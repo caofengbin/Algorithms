@@ -1,6 +1,7 @@
 package com.algorithms.chapter2;
 /**
  * 排序算法的基本模板
+ * 本部分所有算法实现的基类
  * @author fengbincao
  *
  */
