@@ -15,8 +15,8 @@ public class SortAlgorithmsTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Character[] arrays = reverseArrays;
-		BaseSort sortUtil = new SelectionSort();
+		Character[] arrays = randomArrays;
+		BaseSort sortUtil = new ShellSort();
 		sortUtil.reset();
 		sortUtil.show(arrays);
 		sortUtil.sort(arrays);
