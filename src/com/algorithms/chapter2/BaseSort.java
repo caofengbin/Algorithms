@@ -23,6 +23,7 @@ public class BaseSort {
 	 * @param arrays
 	 * @return
 	 */
+	@SuppressWarnings("unchecked")
 	public boolean isSorted(Comparable[] arrays) {
 		for(int i = 1 ; i < arrays.length ; i++)
 			if(less(arrays[i],arrays[i-1]))
@@ -60,7 +61,7 @@ public class BaseSort {
 	 * @param w
 	 * @return
 	 */
-	protected boolean less(Comparable v, Comparable w) {
+	protected boolean less(Comparable<Comparable> v, Comparable w) {
 		compareCount++;
 		return v.compareTo(w) < 0;
 	}
