@@ -296,7 +296,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value>  {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		RedBlackBST<Integer,Boolean> redBlackBST = new RedBlackBST();
+		RedBlackBST<Integer,Boolean> redBlackBST = new RedBlackBST<Integer, Boolean>();
 		redBlackBST.put(60098, true);
 		redBlackBST.put(61098, true);
 		redBlackBST.put(60345, true);
